@@ -18,7 +18,12 @@ body {
     src:url(../fonts/caviardreams.ttf)
 }
 
-
+.frontquote {
+    text-align:center;
+    color: #e2e2e2;
+    font-family: caviardreams;
+    margin-top: 20px;
+}
 #wrapper {
     padding-left:0;
     -webkit-transition:all .5s ease;
@@ -176,11 +181,26 @@ body {
     max-height: 500px;
     
 }
+#fronttextabout {
+       font-family:caviardreams;
+    background-color:#000201;
+    color:#e2e2e2;
+    text-align:center;
+    border-top-width:2px;
+    border-top-style:solid;
+    border-top-color:#bc191d;
+    padding-top:30px;
+    padding-bottom:30px;
+    min-width:300px;
+    min-height: 150px;
+    max-height: 500px;
+    
+}
 
 #aleksanderlogo {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 80px;
+    margin-top: 50px;
     padding-left: 20px;
 
 }
@@ -242,6 +262,10 @@ body {
     font-size:15px;
     min-width:100px;
     color: #e2e2e2;
+}
+
+#aleksanderface {
+
 }
 
 
@@ -367,4 +391,9 @@ background-color: #eaeaea;
 .contact {
     text-align: center;
 
+}
+
+#aboutme {
+
+    margin-top: 50px;
 }
