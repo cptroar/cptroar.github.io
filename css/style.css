@@ -333,9 +333,6 @@ background-color: #eaeaea;
 
 .citybackground {
     background-image: url("../img/citybg.jpg");
-    background-width: 100%;
-    : no-repeat;
-    color:white;
     min-height: 400px;
 
 }
@@ -349,7 +346,7 @@ background-color: #eaeaea;
 }
 
 .yt{
-    margin-top: 15px;
+    margin-top: 80px;
  }
 
  #lyrics {
