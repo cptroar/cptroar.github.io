@@ -10,12 +10,18 @@ html {
 
 body {
     background-color:#000201;
-    height:100%
+    height:100%;
+    background-image: url("../img/bloodsplatter.png");
 }
 
 @font-face {
     font-family:caviardreams;
     src:url(../fonts/caviardreams.ttf)
+}
+
+@font-face {
+    font-family:gloop;
+    src:url(../fonts/gloop.ttf)
 }
 
 .frontquote {
@@ -37,7 +43,7 @@ body {
 }
 
 .bgcolor {
-    background-color:#000201;
+    background-color:wh;
     color:#fff
 }
 
@@ -166,51 +172,7 @@ body {
 /* whateva that was it ends here */
 
 
-#fronttext {
-       font-family:caviardreams;
-    background-color:#000201;
-    color:#e2e2e2;
-    text-align:center;
-    border-top-width:2px;
-    border-top-style:solid;
-    border-top-color:#bc191d;
-    padding-top:30px;
-    padding-bottom:30px;
-    min-width:300px;
-    min-height: 300px;
-    max-height: 500px;
-    
-}
-#fronttextabout {
-       font-family:caviardreams;
-    background-color:#000201;
-    color:#e2e2e2;
-    text-align:center;
-    border-top-width:2px;
-    border-top-style:solid;
-    border-top-color:#bc191d;
-    padding-top:30px;
-    padding-bottom:30px;
-    min-width:300px;
-    min-height: 150px;
-    max-height: 500px;
-    
-}
 
-#aleksanderlogo {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    padding-left: 20px;
-
-}
-
-#discovertext {
-    font-family: caviardreams;
-    text-align: center;
-    margin-top: 50px;
-
-}
 
 /* Navigation top button */
 .white-navigation {
@@ -239,6 +201,7 @@ body {
 }
 
 .black-navigation:visited {
+
     color:#434343
 }
 
@@ -264,9 +227,6 @@ body {
     color: #e2e2e2;
 }
 
-#aleksanderface {
-
-}
 
 
 
@@ -290,34 +250,47 @@ body {
 
 
 .discoverbutton {
-    border-radius: 25px;
-    color: #000201;
-    background-color: #e2e2e2;
-    max-width: 200px;
+    border-radius: 5px;
+    color: #96211b;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background-color: #1b1a26;
+    max-width: 300px;
     margin-left: auto;
     margin-right: auto;
     text-decoration: none;
+    text-align: center;
+    font-family: caviardreams;
+    padding-bottom: 2px;
+
 
 }
 
 .discoverbutton:visited {
-    color: #000201;
+    color: #96211b;
     text-decoration: none;
 
     }
 .discoverbutton:active {
-    color:#000201;
+    color:#a61810;
+    background-color:#1f1e2b;
     text-decoration: none;
 }
 .discoverbutton:hover {
-    color:#000201;
-    background-color: #ffffff;
+    color:#a61810;
+    background-color: #1f1e2b;
     text-decoration: none;
 }
 
 .discoverbutton:visited {
-    color:#000201;
+    color:#96211b;
     text-decoration: none;
+}
+
+#partytext {
+    font-family: caviardreams;
+    font-size: 80px;
+    text-align:center;
+    text-shadow: -4px 0 #96211b, 0 4px #96211b, 4px 0 #96211b, 0 -4px #96211b;
 }
 
 
@@ -355,45 +328,55 @@ background-color: #eaeaea;
 }
 
 
-.citybackground {
-    background-image: url("../img/citybg.jpg");
-    min-height: 400px;
-
-}
-
-#cityineedbase {
-    color: black;
-    font-size: 500px;
-    font-family: caviardreams;
-    text-align: center;
-    margin-top: 100px;
-}
-
-.yt{
-    margin-top: 80px;
- }
-
- #lyrics {
-    text-align:center;
-
-     }
-
-.headerbigger {
-    font-family: caviardreams;
-    font-size: 30px;
-
-}
-
-.paragraph {
-    text-align: center;
-}
-
-.contact {
-    text-align: center;
-
-}
-
-#aboutme {
-
+#frontimage {
+    margin-left:auto;
+    margin-right:auto;
     margin-top: 50px;
+}
+
+.maininfo {
+    text-align: center;
+    font-family: gloop;
+    font-size: 36px;
+    color: #ffffff;
+     text-shadow: -4px 0 #96211b, 0 4px #96211b, 4px 0 #96211b, 0 -4px #96211b;
+
+}
+#maincontentwrapper {
+    max-width: 960px;
+    margin-top: 30px;
+}
+
+#buyticketsonline {
+    margin-top: 10px;
+max-width: 300px;
+color: white;
+font-size: 24px;
+padding:2px;
+text-align: center;
+font-family: gloop;
+border-radius: 1px;
+border-color: white;
+border-style: solid
+}
+
+#moreinformation {
+    max-width: 960px;
+
+}
+
+#costumes {
+    margin-top: 25px;
+    font-family: gloop;
+    text-align: center;
+    font-size: 48px;
+    color: #bc2121;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#moreinfo {
+    font-family: caviardreams;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: -4px 0 #a21111, 0 4px #a21111, 4px 0 #a21111, 0 -4px #a21111;
 }
