@@ -11,7 +11,7 @@ html {
 body {
     background-color:#000201;
     height:100%;
-    background-image: url("../img/bloodsplatter.png");
+    background-image: url("../img/bloodsplatter.png");F
 }
 
 @font-face {
@@ -329,9 +329,10 @@ background-color: #eaeaea;
 
 
 #frontimage {
+    margin-top: 8%;
     margin-left:auto;
     margin-right:auto;
-    margin-top: 50px;
+    
 }
 
 .maininfo {
