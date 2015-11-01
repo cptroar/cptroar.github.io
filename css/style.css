@@ -335,7 +335,19 @@ background-color: #eaeaea;
     
 }
 
-.maininfo {
+.maininfo1 {
+    border-right-style: solid;
+    border-right-color: #ffffff;
+    border-right-width: 3px;
+    text-align: center;
+    font-family: gloop;
+    font-size: 36px;
+    color: #ffffff;
+     text-shadow: -4px 0 #96211b, 0 4px #96211b, 4px 0 #96211b, 0 -4px #96211b;
+
+}
+
+.maininfo2 {
     text-align: center;
     font-family: gloop;
     font-size: 36px;
