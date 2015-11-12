@@ -14,6 +14,7 @@
     <title>Street Food</title><!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet"><!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -25,8 +26,7 @@
 <body>
     <div id="wrapper">
         <!-- Sidebar -->
-
-        <div id="sidebar-wrapper">
+     <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
                     <a href="#">MENU</a>
@@ -92,50 +92,28 @@
 
 <div class=" container-fluid webcontentmain">
 
-<img class="img-responsive" id="frontlogo" src="img/frontlogo.png" alt="Front Logo">
-
-<div class="container-fluid" id="navbuttonscontent">
-
-   <a class="frontnavlink" href="reservations.html"> <div class="container-fluid navbuttonstyle1" > 
-
-        Reservations
-
-    </div> </a>
- 
-       <a class="frontnavlink" href="food.html"> <div class="container-fluid navbuttonstyle2"> 
-
-        Food and stalls
-
-    </div> </a>
-
-     <a class="frontnavlink" href="info.html"> <div class="container-fluid navbuttonstyle3"> 
-
-        Info
-
-    </div> </a>
-
-      <a class="frontnavlink" href="events.html"> <div class="container-fluid navbuttonstyle4"> 
-
-        Events
-
-    </div> </a>
-
-  <a class="frontnavlink" href="contact.html"> <div class="container-fluid navbuttonstyle5"> 
-
-        Contact
-
-    </div> </a>
+<div class="container-fluid" id="pagecontentname"> Contact </div>
 
 
 
+<div class="container-fluid wborderthin" id="desc" >
+
+<p class="centeredsimpletext">Copenhagen Street Food <br>
+Papiroen / The Paper Island <br>
+Trangravsvej 14 <br>
+Warehouse 7/8 <br>
+1436 Copenhagen K <br>
+Mail: <a href="mailto:info@copenhagenstreetfood.dk">info@copenhagenstreetfood.dk</a> <br>
+ <a href="http://www.cpopenhagenstreetfood.dk">www.copenhagenstreetfood.dk </a>
+<a href="http://www.facebook.com">Facebook >>> </a> <br>
+<a href="http://www.twitter.com">Twitter >>></a> <br>
+Instagram: #cphstreetfood #papiroen</p>
 
 
 </div>
 
 
-
-
-
+  <div id="map"></div>
 
 
 
@@ -166,6 +144,19 @@ $("#menu-toggle").click(function(e) {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
     });
+    </script>
+     <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map');
+        var mapOptions = {
+          center: new google.maps.LatLng(55.6, 12.59),
+          zoom: 13,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
     </script>
 </body>
 </html>

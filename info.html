@@ -14,6 +14,15 @@
     <title>Street Food</title><!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet"><!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
+      <script type="text/javascript" charset="utf-8">
+  function showHide(elementid){
+    if (document.getElementById(elementid).style.display == 'none'){
+      document.getElementById(elementid).style.display = '';
+    } else {
+      document.getElementById(elementid).style.display = 'none';
+    }
+  }
+  </script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -26,7 +35,7 @@
     <div id="wrapper">
         <!-- Sidebar -->
 
-        <div id="sidebar-wrapper">
+           <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
                     <a href="#">MENU</a>
@@ -92,54 +101,68 @@
 
 <div class=" container-fluid webcontentmain">
 
-<img class="img-responsive" id="frontlogo" src="img/frontlogo.png" alt="Front Logo">
-
-<div class="container-fluid" id="navbuttonscontent">
-
-   <a class="frontnavlink" href="reservations.html"> <div class="container-fluid navbuttonstyle1" > 
-
-        Reservations
-
-    </div> </a>
- 
-       <a class="frontnavlink" href="food.html"> <div class="container-fluid navbuttonstyle2"> 
-
-        Food and stalls
-
-    </div> </a>
-
-     <a class="frontnavlink" href="info.html"> <div class="container-fluid navbuttonstyle3"> 
-
-        Info
-
-    </div> </a>
-
-      <a class="frontnavlink" href="events.html"> <div class="container-fluid navbuttonstyle4"> 
-
-        Events
-
-    </div> </a>
-
-  <a class="frontnavlink" href="contact.html"> <div class="container-fluid navbuttonstyle5"> 
-
-        Contact
-
-    </div> </a>
+<div class="container-fluid" id="pagecontentname"> Information </div>
 
 
 
 
-
-</div>
-
+<div class="container-fluid" id="morecontentinfo">
 
 
+<h1 class="subtitle">OPENING HOURS</h1>
+  <div><a href="javascript:showHide('div_1035677');">more...</a></div>
+  <div id="div_1035677" style="display:none">
+    <p class="morecontent">FROM 18th OF OCTOBER 2015 – EASTER 2016 <br>
+Thursday: 12-21 <br>
+Friday: 12-22 <br>
+Saturday: 12-22  (Some stalls open at 10.00) <br>
+Sunday: 12-21  (Some stalls open at 10.00) <br>
+Thursday, Friday and Saturday the bars will be open till late.</p>
+  </div>
 
+  <h1 class="subtitle">VACATION-CHRISTMAS</h1>
+  <div><a href="javascript:showHide('div_1035678');">more...</a></div>
+  <div id="div_1035678" style="display:none">
+    <p class="morecontent">The market is closed from 21st of December till 3rd of February.</p>
+  </div>
 
+    <h1 class="subtitle">RENT COPENHAGEN STREET FOOD</h1>
+  <div><a href="javascript:showHide('div_1035679');">more...</a></div>
+  <div id="div_1035679" style="display:none">
+    <p class="morecontent">Monday, Tuesday and Wednesday it is possible to rent Copenhagen Street Food for private events during this period. <br>
+Please contact: mail@copenhagenstreetfood.dk <br>
+We will be closed from 21st of December till 3rd of February. <br></p>
+  </div>
 
+    <h1 class="subtitle">CASH & ATM'S</h1>
+  <div><a href="javascript:showHide('div_1035680');">more...</a></div>
+  <div id="div_1035680" style="display:none">
+    <p class="morecontent">Most stalls take both credit cards and cash. You are always welcome to buy and use our own currency the CowCash which you can use in all stalls. A CowCash has a value of DKK 25 and can be purchased in the bars. <br></p>
+  </div>
 
+      <h1 class="subtitle">LOST & FOUND</h1>
+  <div><a href="javascript:showHide('div_1035681');">more...</a></div>
+  <div id="div_1035681" style="display:none">
+    <p class="morecontent">Please contact the staff in CowBar near the entrance if you have lost your keys, bag, scarf, gloves, etc. We do not answer mails or calls regarding lost things.<br></p>
+  </div>
 
+      <h1 class="subtitle">TRANSPORTATION</h1>
+  <div><a href="javascript:showHide('div_1035682');">more...</a></div>
+  <div id="div_1035682" style="display:none">
+    <p class="morecontent">5 minutes by bike from Højbro Plads – try Trangravsbroen at Strandgade – a bridge for cyclists and pedestrians <br>
+3 min walk from 9A stop on Prinsessegade/Bodenhoffs Plads <br>
+10 min walk from The Opera by Proviantbroen - a bridge for cyclists and pedestrians <br>
+15 min walk from Christianshavn’s Metro <br></p>
+  </div>
 
+      <h1 class="subtitle">ADRESS</h1>
+  <div><a href="javascript:showHide('div_1035683');">more...</a></div>
+  <div id="div_1035683" style="display:none">
+    <p class="morecontent">Copenhagen Street Food <br>
+PapirØen/The Paper Island <br>
+Warehouse 7 & 8 <br>
+Trangravsvej 14, 1436 Copenhagen K <br></p>
+  </div>
 </div>
 
 <!-- Main content ends here -->

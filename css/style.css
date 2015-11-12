@@ -9,27 +9,22 @@ html {
 }
 
 body {
-    background-color:#000201;
+    background-image: url("../img/websitebackground.jpg");
     height:100%;
-    background-image: url("../img/bloodsplatter.png");F
 }
 
 @font-face {
-    font-family:caviardreams;
-    src:url(../fonts/caviardreams.ttf)
+    font-family:msjhl;
+    src:url(../fonts/msjhl.ttf)
 }
 
 @font-face {
-    font-family:gloop;
-    src:url(../fonts/gloop.ttf)
+    font-family:helvetica;
+    src:url(../fonts/helvetica.ttf)
 }
 
-.frontquote {
-    text-align:center;
-    color: #e2e2e2;
-    font-family: caviardreams;
-    margin-top: 20px;
-}
+
+
 #wrapper {
     padding-left:0;
     -webkit-transition:all .5s ease;
@@ -48,7 +43,7 @@ body {
 }
 
 #sidebar-wrapper {
-    font-family: caviardreams;
+    font-family: "msjhl";
     color: #000201;
     z-index:1000;
     position:fixed;
@@ -227,75 +222,244 @@ body {
     color: #e2e2e2;
 }
 
+/* Main content */
 
-
-
-
-
-
-
-
-
-.fading {
-    opacity:.3;
-    border:1px;
-    height:1px;
-    background-image:linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0))
+.webcontentmain {
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: ;
 }
 
-.hrmargin {
-    margin-left:15px;
-    margin-right:15px
-}
-
-
-.discoverbutton {
-    border-radius: 5px;
-    color: #96211b;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    background-color: #1b1a26;
-    max-width: 300px;
+#frontlogo {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 45px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#navbuttonscontent {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-family: "msjhl";
+
+
+}
+
+.navbuttonstyle1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url("../img/buttonimgreservation.jpg");
+    background-repeat: no-repeat;
+background-color: lightblue;
+text-align: center;
+min-width: 280px;
+max-width: 630px;
+min-height: 60px;
+font-size: 36px;
+padding-top: 20px;
+padding-bottom: 20px;
+border-radius:5px;
+ text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.navbuttonstyle2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url("../img/buttonimgfood.jpg");
+    background-repeat: no-repeat;
+background-color: lightblue;
+text-align: center;
+min-width: 280px;
+max-width: 630px;
+min-height: 60px;
+font-size: 36px;
+padding-top: 20px;
+padding-bottom: 20px;
+border-radius:5px;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.navbuttonstyle3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url("../img/buttonimginfo.jpg");
+    background-repeat: no-repeat;
+background-color: lightblue;
+text-align: center;
+min-width: 280px;
+max-width: 630px;
+min-height: 60px;
+font-size: 36px;
+padding-top: 20px;
+padding-bottom: 20px;
+border-radius:5px;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.navbuttonstyle4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url("../img/buttonimgevents.jpg");
+    background-repeat: no-repeat;
+background-color: lightblue;
+text-align: center;
+min-width: 280px;
+max-width: 630px;
+min-height: 60px;
+font-size: 36px;
+padding-top: 20px;
+padding-bottom: 20px;
+border-radius:5px;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.navbuttonstyle5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url("../img/buttonimgcontact.jpg");
+    background-repeat: no-repeat;
+background-color: lightblue;
+text-align: center;
+min-width: 280px;
+max-width: 630px;
+min-height: 60px;
+font-size: 36px;
+padding-top: 20px;
+padding-bottom: 20px;
+border-radius:5px;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.frontnavlink {
     text-decoration: none;
+    color:#ffffff
+}
+
+.frontnavlink:visited {
+text-decoration: none;
+    color:#ffffff
+}
+
+.frontnavlink:hover {
+    text-decoration: none;
+    color:#ffffff
+}
+
+.frontnavlink:active {
+    text-decoration: none;
+    color:#ffffff
+}
+
+.frontnavlink:focus {
+    text-decoration: none;
+    color:#ffffff
+}
+
+.restaurants {
+    color:white;
+    font-size: 20px;
+    background-color: lightgrey;
+    font-style: verdana;
+    min-height: 150px;
+    min-width: 150px;
+    max-height: 300px;
+    max-width: 300px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.restaurantlogo {
+    padding: 15px;
+}
+#pagecontentname {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 40px;
     text-align: center;
-    font-family: caviardreams;
-    padding-bottom: 2px;
-
+    color:black;
+    font-family: "msjhl";
 
 }
 
-.discoverbutton:visited {
-    color: #96211b;
-    text-decoration: none;
-
-    }
-.discoverbutton:active {
-    color:#a61810;
-    background-color:#1f1e2b;
-    text-decoration: none;
-}
-.discoverbutton:hover {
-    color:#a61810;
-    background-color: #1f1e2b;
-    text-decoration: none;
+.wborderthin {
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    color: black;
 }
 
-.discoverbutton:visited {
-    color:#96211b;
-    text-decoration: none;
+.centeredsimpletext {
+    text-align: center;
 }
 
-#partytext {
-    font-family: caviardreams;
-    font-size: 80px;
+#reservationlogo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#desc {
+    font-size: 18px;
+    font-family: Helvetica;
+    padding: 10px;
+}
+
+.reservation {
+    margin-top: 20px;
+    font-size: 24px;
     text-align:center;
-    text-shadow: -4px 0 #96211b, 0 4px #96211b, 4px 0 #96211b, 0 -4px #96211b;
+    min-width: 90px;
+    min-height: 50px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: #ffffff;
+    color: black;
+    font-family: Helvetica;
+    border-radius: 10px;
+    padding-top: 5px;
+
+
 }
 
+     #map {
+        width: 100%;
+        height: 320px;
+        margin-top: 10px;
+      }
 
+.subtitle {
+    font-size: 24px;
+    color: black;
+    text-align:center;
+}
 
+.morecontent {
+    font-size: 14px;
+    color: black;
+    font-family: Helvetica;
+}
 
+#morecontentinfo {
+    text-align: center;
+}
+/* Main content ends here */
+.footer {
+    text-align:center;
+    color:#e2e2e2;
+    margin-bottom:0;
+    padding-top:5px;
+    margin-top: 100px;
+    padding: 20px;
+    font-size:15px;
+    font-family:"msjhl
+}
 
 /* This is an original footer 
 
@@ -316,120 +480,6 @@ background-color: #eaeaea;
 }
 
  This is where it ends */
-.footer {
-    text-align:center;
-    color:#e2e2e2;
-    margin-bottom:0;
-    padding-top:5px;
-    margin-top: 100px;
-    padding: 20px;
-    font-size:15px;
-    font-family:"caviardreams"
-}
 
-
-#frontimage {
-    margin-top: 8%;
-    margin-left:auto;
-    margin-right:auto;
-    
-}
-
-.maininfo1 {
-    border-right-style: solid;
-    border-right-color: #ffffff;
-    border-right-width: 3px;
-    text-align: center;
-    font-family: gloop;
-    font-size: 36px;
-    color: #ffffff;
-     text-shadow: -4px 0 #96211b, 0 4px #96211b, 4px 0 #96211b, 0 -4px #96211b;
-
-}
-
-.maininfo2 {
-    text-align: center;
-    font-family: gloop;
-    font-size: 36px;
-    color: #ffffff;
-     text-shadow: -4px 0 #96211b, 0 4px #96211b, 4px 0 #96211b, 0 -4px #96211b;
-
-}
-#maincontentwrapper {
-    max-width: 960px;
-    margin-top: 30px;
-}
-
-#buyticketsonline {
-    margin-top: 10px;
-max-width: 300px;
-color: white;
-font-size: 24px;
-padding:2px;
-text-align: center;
-font-family: gloop;
-border-radius: 1px;
-border-color: white;
-border-style: solid
-}
-
-#moreinformation {
-    max-width: 960px;
-
-}
-
-#costumes {
-    margin-top: 25px;
-    font-family: gloop;
-    text-align: center;
-    font-size: 48px;
-    color: #bc2121;
-    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-}
-
-#moreinfo {
-    font-family: caviardreams;
-    font-size: 60px;
-    text-align: center;
-    text-shadow: -4px 0 #a21111, 0 4px #a21111, 4px 0 #a21111, 0 -4px #a21111;
-}
-
-.visitus {
-   margin-top: 40px;
-   margin-left:auto;
-   margin-right: auto;
-   text-align: center;
-
-}
-
-.sociallink {
-    color: #ffffff;
-    font-family: gloop;
-    font-size: 24px;
-    text-shadow: -4px 0 #3B5998, 0 4px #3B5998, 4px 0 #3B5998, 0 -4px #3B5998;
-}
-
-.sociallink:visited {
-    color: #ffffff;
-    text-decoration: none;
-    text-align: center;
-
-    }
-.sociallink:active {
-    color:#ffffff;
-    text-decoration: none;
-    text-align: center;
-}
-.sociallink:hover {
-    color:#ffffff;
-    text-decoration: none;
-    text-align: center;
-}
-
-.sociallink:visited {
-    color:#ffffff;
-    text-decoration: none;
-    text-align: center;
-}
 
 
